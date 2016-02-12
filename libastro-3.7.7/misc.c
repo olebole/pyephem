@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-double ascii_strtod(const char *s00, char **se);  /* for PyEphem */
+#define ascii_strtod strtod
 
 /* zero from loc for len bytes */
 void

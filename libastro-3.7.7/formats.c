@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-double ascii_strtod(const char *s00, char **se);  /* for PyEphem */
+#define ascii_strtod strtod
 
 /* sprint the variable a in sexagesimal format into out[].
  * w is the number of spaces for the whole part.

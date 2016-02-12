@@ -28,7 +28,7 @@ def read(*filenames):
 
 extensions = [
     Extension('ephem._libastro',
-              ['extensions/_libastro.c', 'extensions/dtoa.c']
+              ['extensions/_libastro.c']
               + libastro_files + libastro_data,
               include_dirs=['libastro-' + libastro_version],
               ),
